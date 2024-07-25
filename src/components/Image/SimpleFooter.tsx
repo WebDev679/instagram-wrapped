@@ -13,7 +13,10 @@ function SimpleFooter() {
         fontSize: "18px",
       }}
     >
-      Discover more at <a href="https://ig.vantezzen.io" style={{ color: "#ADF" }}> ig.vantezzen.io </a>
+       Discover more at
+      <a href="https://instagram-wrapped.vercel.app/" style={{ color: "#ADF", marginLeft: "5px" }}>
+        instagram-wrapped.vercel.app
+      </a>
     </footer>
   );
 }

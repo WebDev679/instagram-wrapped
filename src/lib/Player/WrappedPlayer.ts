@@ -23,9 +23,6 @@ export type Slide = {
   name: string;
   component: React.FC<WrappedSlideProps>;
   duration: number;
-  spotify?: {
-    uri: string;
-  };
   skip?: (statistics: Statistics) => boolean;
 };
 
@@ -34,9 +31,6 @@ const SLIDES: Slide[] = [
     name: "Intro",
     component: Intro,
     duration: 6000,
-    spotify: {
-      uri: "spotify:track:7KA4W4McWYRpgf0fWsJZWB",
-    },
   },
   {
     name: "TotalWatchTime",
@@ -101,9 +95,6 @@ const SLIDES: Slide[] = [
     name: "Comments",
     component: Comments,
     duration: 6000,
-    spotify: {
-      uri: "spotify:track:6UN73IYd0hZxLi8wFPMQij",
-    },
     skip: (statistics) => statistics.activity.commentsWritten === 0,
   },
   {
@@ -115,9 +106,6 @@ const SLIDES: Slide[] = [
     name: "Roundup",
     component: Roundup,
     duration: 6000,
-    spotify: {
-      uri: "spotify:track:5odlY52u43F5BjByhxg7wg",
-    },
   },
 ];
 
