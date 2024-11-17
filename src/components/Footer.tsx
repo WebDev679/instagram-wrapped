@@ -11,7 +11,7 @@ function Footer() {
         rel="noreferrer"
         className="text-zinc-800 font-medium mt-12"
       >
-        Made by <span className="underline">Arnav Chaudhry and Angad Chaudhry</span>
+        Made by <span className="underline">Arnav Chaudhry, Angad Chaudhry, and Ritwik Saini</span>
         <br />
       </a>
     </div>
